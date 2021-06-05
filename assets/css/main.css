@@ -3277,14 +3277,14 @@ input, select, textarea {
 
 			#wrapper > .bg {
 				background-size: auto,								auto,														auto 175%;
+				background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg mobile.jpg");
 			}
-
 		}
-
+		
 /* Intro */
 
 	#intro {
-		color: #fcbe11;
+		color: #ece5ec;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3332,7 +3332,7 @@ input, select, textarea {
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #fcbe11;
+			color: #ece5ec;
 		}
 
 		#intro blockquote {
@@ -3354,8 +3354,8 @@ input, select, textarea {
 		#intro button,
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #fcbe11;
-			color: #fcbe11 !important;
+			box-shadow: inset 0 0 0 2px #ece5ec;
+			color: #ece5ec !important;
 		}
 
 			#intro input[type="submit"]:hover,
@@ -3523,11 +3523,11 @@ input, select, textarea {
 	}
 
 		#header input, #header select, #header textarea {
-			color: #fcbe11;
+			color: #ece5ec;
 		}
 
 		#header a {
-			color: #fcbe11;
+			color: #ece5ec;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3537,7 +3537,7 @@ input, select, textarea {
 			}
 
 		#header strong, #header b {
-			color: #fcbe11;
+			color: #ece5ec;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -3545,16 +3545,16 @@ input, select, textarea {
 		}
 
 		#header blockquote {
-			border-left-color: #fcbe11;
+			border-left-color: #ece5ec;
 		}
 
 		#header code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #fcbe11;
+			border-color: #ece5ec;
 		}
 
 		#header hr {
-			border-bottom-color: #fcbe11;
+			border-bottom-color: #ece5ec;
 		}
 
 		#header .logo {
@@ -3564,7 +3564,7 @@ input, select, textarea {
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
 			border-style: solid;
-			border-color: #fcbe11;
+			border-color: ##ece5ec;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
