@@ -4382,6 +4382,11 @@ input, select, textarea {
 
 		}
 
+		#email {
+			margin-left: 50px;
+			margin-right: 25px;
+		}
+
 	#copyright {
 		color: #ffffff;
 		position: relative;
