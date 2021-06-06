@@ -4705,3 +4705,8 @@ input, select, textarea {
 		}
 
 	}
+
+	#game {
+		margin-left: auto;
+		margin-right: auto;
+	}
