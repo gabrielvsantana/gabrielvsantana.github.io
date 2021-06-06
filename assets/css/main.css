@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2635,7 +2629,9 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			width: 75%;
 		}
 
 			.image.main:first-child {
@@ -2643,6 +2639,22 @@ input, select, textarea {
 			}
 
 			.image.main img {
+				width: 75%;
+				margin-left: auto;
+    		margin-right: auto;
+			}
+		
+		.image.aboutme {
+			display: block;
+			margin: 4rem 0;
+			width: 100%;
+		}
+	
+			.image.aboutme:first-child {
+				margin-top: 0;
+			}
+	
+			.image.aboutme img {
 				width: 100%;
 			}
 
@@ -2653,6 +2665,12 @@ input, select, textarea {
 			}
 
 			.image.main {
+				margin: 2rem 0;
+				margin-left: auto;
+    		margin-right: auto;
+			}
+
+			.image.aboutme {
 				margin: 2rem 0;
 			}
 
@@ -3493,7 +3511,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #fcbe11;
+		color: #ece5ec;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3541,7 +3559,7 @@ input, select, textarea {
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #ece5ec;
 		}
 
 		#header blockquote {
@@ -3564,7 +3582,7 @@ input, select, textarea {
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
 			border-style: solid;
-			border-color: ##ece5ec;
+			border-color: #ece5ec;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
