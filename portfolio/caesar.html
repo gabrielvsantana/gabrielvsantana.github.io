@@ -5,6 +5,7 @@
 		<title>Caesar ─ C | Gabriel V. Santana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png"/>
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	</head>
@@ -50,10 +51,34 @@
               <section>
                 <h2>Caesar</h2>
                 <p>Xxxx</p>
-                <pre><code>Input: X
-Output: Y
+								<h5>expected behavior on terminal:</h5>
+                <pre><code>$ ./caesar 13
+plaintext:  HELLO
+ciphertext: URYYB
+
+$ ./caesar 1
+plaintext:  HELLO
+ciphertext: IFMMP
+
+$ ./caesar 13
+plaintext:  hello, world
+ciphertext: uryyb, jbeyq
+
+$ ./caesar 13
+plaintext:  be sure to drink your Ovaltine
+ciphertext: or fher gb qevax lbhe Binygvar
+
+$ ./caesar HELLO
+Usage: ./caesar key
+
+$ ./caesar HELLO
+Usage: ./caesar key
+
+$ ./caesar 1 2 3
+Usage: ./caesar key
                 </code></pre>
                 <a href="https://raw.githubusercontent.com/me50/Vieir442/cs50/problems/2020/x/caesar/caesar.c?token=AOQB4PES4GCVQRDG2SSIPYDAY2DLG" target="_blank"><i>Source Code</i></a>
+								<p><i>It uses CS50's library</i></p>
               </section>
 
 					</div>

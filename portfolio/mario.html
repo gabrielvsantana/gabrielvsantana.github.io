@@ -5,6 +5,7 @@
 		<title>Mario ─ C | Gabriel V. Santana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png"/>
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	</head>
@@ -50,9 +51,40 @@
               <section>
                 <h2>Mario Less</h2>
                 <p>Xxxx</p>
-                <pre><code>Input: X
-Output: Y
-                </code></pre>
+								<h5>expected behavior on terminal:</h5>
+                <pre><code>// Input of 8
+
+$ ./mario
+Height: 8
+       #
+      ##
+     ###
+    ####
+   #####
+  ######
+ #######
+########
+
+
+// Input of 1
+
+$ ./mario
+Height: 1
+#
+
+
+// It only accepts from 1 to 8
+
+$ ./mario
+Height: -1
+Height: 0
+Height: 42
+Height: 50
+Height: 4
+   #
+  ##
+ ###
+####</code></pre>
                 <a href="https://raw.githubusercontent.com/me50/Vieir442/cs50/problems/2020/x/mario/less/mario.c?token=AOQB4PDCGQNR72GBPGCORADAY2BKQ" target="_blank"><i>Source Code</i></a>
               </section>
 
@@ -60,10 +92,46 @@ Output: Y
               <section>
                 <h2>Mario More</h2>
                 <p>Xxxx</p>
-                <pre><code>Input: X
-Output: Y
+								<h5>expected behavior on terminal:</h5>
+                <pre><code>// Input of 8
+
+$ ./mario
+Height: 8
+       #  #
+      ##  ##
+     ###  ###
+    ####  ####
+   #####  #####
+  ######  ######
+ #######  #######
+########  ########
+
+
+// Input of 4
+
+$ ./mario
+Height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+
+
+// It only accepts from 1 to 8
+
+$ ./mario
+Height: -1
+Height: 0
+Height: 42
+Height: 50
+Height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####
                 </code></pre>
                 <a href="https://raw.githubusercontent.com/me50/Vieir442/cs50/problems/2020/x/mario/more/mario.c?token=AOQB4PCUOC7SMKJPNHNFH3DAY2CNO" target="_blank"><i>Source Code</i></a>
+								<p><i>It uses CS50's library</i></p>
               </section>
 
 					</div>

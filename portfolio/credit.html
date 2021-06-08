@@ -5,6 +5,7 @@
 		<title>Credit ─ C | Gabriel V. Santana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png"/>
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	</head>
@@ -50,10 +51,23 @@
               <section>
                 <h2>Credit</h2>
                 <p>Xxxx</p>
-                <pre><code>Input: X
-Output: Y
+								<h5>expected behavior on terminal:</h5>
+                <pre><code>$ ./credit
+Number: 4003600000000014
+VISA
+
+$ ./credit
+Number: 4003-6000-0000-0014
+Number: foo
+Number: 4003600000000014
+VISA
+
+$ ./credit
+Number: 6176292929
+INVALID
                 </code></pre>
                 <a href="https://raw.githubusercontent.com/me50/Vieir442/cs50/problems/2020/x/credit/credit.c?token=AOQB4PDO35TMOOV2MWAXJFDAY2DE4" target="_blank"><i>Source Code</i></a>
+								<p><i>It uses CS50's library</i></p>
               </section>
 
 					</div>
