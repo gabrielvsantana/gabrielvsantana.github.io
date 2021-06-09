@@ -88,4 +88,3 @@
 @function _size($keys...) {
 	@return val($size, $keys...);
 }
-
